@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Archivo+Black');
 
+html,body
+{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
 
 #top {
   height: 100px;
@@ -8,20 +15,18 @@
   align-items: center;
   justify-content: flex-start;
   position: fixed;
-  top: 0px;
-  left: 0px;
   background-color: transparent;
-  transition-duration: 0.5s;
-  opacity: 75%;
+  transition-duration: 0.3s;
+  opacity: 55%;
 }
 
 #top:hover {
-  background-color: white;
+  background-image: linear-gradient(to right, white, transparent 55%);
   opacity: 100%;
 }
 
 #nav-bar {
-  
+  height: 100px;
   background-image: url("https://i.imgur.com/THmm5qc.png");
   background-size: 15%;
   background-repeat: no-repeat;
@@ -29,10 +34,10 @@
 }
 
 ul {
+  margin-top: 1px;
   width: 100vw;
   list-style: none;
   font-family: 'Roboto Mono', monospace;
-  margin-left: 20px;
   font-size: 25px;
 }
 
@@ -41,7 +46,7 @@ ul {
 li a {
   text-decoration: none;
   color: black;
-  margin: 0px 0px 50px 250px;
+  margin: 0px 0px 0px 250px;
   transition-duration: 0.1s;
 }
 
@@ -66,13 +71,16 @@ li a:hover:after {
 }
 
 #caratula {
-  padding-top: 350px;
+  padding: 0px 50px 0px 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   background-image: url("https://i.imgur.com/1MzZJkP.png");
-  background-size: 20%;
+  background-size: 25%;
   background-position: center;
   background-repeat: no-repeat;
-  width: 100vw;
-  height: 650px;
+  height: 750px;
+  width: 100%;
 }
 
 .main-title {
@@ -85,14 +93,12 @@ li a:hover:after {
 #caratula p {
   color: black;
   font-family: 'Roboto Mono', monospace;
-  text-align: right;
   color: black;
-  margin-right: 300px;
+  text-align: right;
 }
 
 #projects h2 {
-  
-  margin-top: 50px;
+  padding-top: 50px;
   margin-bottom: 50px;
   color: white;
   font-family: 'Bebas Neue', cursive;
@@ -102,7 +108,7 @@ li a:hover:after {
 
 #projects {
   background-color: #3498db;
-  padding: 50px;
+  height: 1000px;
 }
 
 .proy-container {
@@ -113,13 +119,12 @@ li a:hover:after {
 }
 
 #projects a {
-  background-size: 100%;
   transition-duration: 0.5s;
   border-radius: 10px;
   border: 3px solid white;
   background-image: url("https://i.imgur.com/LlQ3d5P.png");
   background-repeat: no-repeat;
-  background-size: 30%;
+  background-size: 35%;
   background-position: center;
 }
 
@@ -132,7 +137,6 @@ li a:hover:after {
   color: white;
   text-decoration: none;
   background-color: transparent;
-  opacity: 100%;
 }
 
 .preview {
@@ -154,8 +158,7 @@ li a:hover:after {
 }
 
 #contacto {
-  width: 100%;
-  height: 600px;
+  height: 700px;
   background-image: url("https://i.imgur.com/cMStyqL.png");
   background-size: 50%;
   background-repeat: no-repeat;
@@ -165,7 +168,6 @@ li a:hover:after {
 
 #titulo-redes {
   padding-top: 50px;
-  padding-right: 150px;
   color: black;
   font-family: 'Bebas Neue', cursive;
   font-size: 100px;
@@ -181,7 +183,7 @@ li a:hover:after {
 
 .reds {
   margin-top: 0px;
-  padding: 20px 20px 20px 20px;
+  padding: 50px 20px 50px 20px;
   transition-duration: 0.5s;
 }
 
@@ -189,9 +191,6 @@ li a:hover:after {
   opacity: 25%;
 }
 
-footer {
-  width: 100%;
-}
 
 #final {
   background-color: #f1c40f;
@@ -199,34 +198,31 @@ footer {
 
 .creditos {
   position: fixed;
-  margin-right: 0px;
-  margin-bottom: 0px;
+  right: 0px;
+  bottom: 0px;
   font-size: 20px;
   color: white;
 }
 
-@media screen and (min-width: 1400px) { /* queries para ports enormes */
+@media screen and (min-width: 1900px) { /* queries para ports enormes */
   
-      html {
-      display: flex;
-      flex-wrap: wrap;
-      flex-direction: column;
-      justify-content: center;
-      max-width: 1300px;
-    }
+  html {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 1300px;
+}
 
-      ul {
-      margin-left: 100px;
-    }   
+  ul {
+  margin-left: 100px;
+}   
+
+  .preview {
+  width: 500px;
+  }   
+
   
-      .preview {
-      width: 500px;
-      }   
-  
-      #contacto {
-        height: 750px;
-      }
-      
 }
 
 @media screen and (max-width: 400px) { /* queries para ports mobile */
