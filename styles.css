@@ -34,7 +34,7 @@ html,body
 }
 
 ul {
-  margin-top: 1px;
+  margin-top: 0px;
   width: 100vw;
   list-style: none;
   font-family: 'Roboto Mono', monospace;
@@ -71,7 +71,7 @@ li a:hover:after {
 }
 
 #caratula {
-  padding: 0px 50px 0px 50px;
+  padding: 100px 50px 0px 50px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -80,7 +80,6 @@ li a:hover:after {
   background-position: center;
   background-repeat: no-repeat;
   height: 750px;
-  width: 100%;
 }
 
 .main-title {
@@ -99,7 +98,6 @@ li a:hover:after {
 
 #projects h2 {
   padding-top: 50px;
-  margin-bottom: 50px;
   color: white;
   font-family: 'Bebas Neue', cursive;
   font-size: 100px;
@@ -109,6 +107,8 @@ li a:hover:after {
 #projects {
   background-color: #3498db;
   height: 1000px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
 }
 
 .proy-container {
@@ -158,6 +158,8 @@ li a:hover:after {
 }
 
 #contacto {
+  margin-top: 0px;
+  padding-top: 0px;
   height: 700px;
   background-image: url("https://i.imgur.com/cMStyqL.png");
   background-size: 50%;
@@ -182,13 +184,13 @@ li a:hover:after {
 }
 
 .reds {
-  margin-top: 0px;
-  padding: 50px 20px 50px 20px;
+  padding: 0px 20px 50px 20px;
   transition-duration: 0.5s;
+  opacity: 50%;
 }
 
 .reds:hover {
-  opacity: 25%;
+  opacity: 100%;
 }
 
 
