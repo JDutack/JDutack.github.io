@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Archivo+Black');
 
-html,body
-{
+* { margin: 0; padding: 0; }
+
+html,body {
     width: 100%;
     margin: 0px;
     padding: 0px;
@@ -15,13 +16,12 @@ html,body
   align-items: center;
   justify-content: flex-start;
   position: fixed;
-  background: radial-gradient(circle at left, white, transparent 75%);
-  transition-duration: 0.3s;
-  opacity: 55%;
+  transition-duration: 0.5s;
+  opacity: 35%;
 }
 
 #top:hover {
-  background-color: white;
+  background: radial-gradient(circle at left, white, transparent 40%);
   opacity: 100%;
 }
 
@@ -47,7 +47,9 @@ li a {
   text-decoration: none;
   color: black;
   margin: 0px 0px 0px 250px;
-  transition-duration: 0.1s;
+}
+
+li a:hover {
 }
 
 li a:hover:before {
@@ -58,20 +60,8 @@ li a:hover:after {
   content: " />";
 }
 
-.li-home:hover {
-  color: #fed330;
-}
-
-.li-proye:hover {
-  color: #3498db;
-}
-
-.li-contact:hover {
-  color: #f1c40f;
-}
-
 #caratula {
-  padding: 100px 50px 0px 50px;
+  padding: 25px 50px 0px 150px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -79,6 +69,7 @@ li a:hover:after {
   background-size: 25%;
   background-position: center;
   background-repeat: no-repeat;
+	background-attachment: fixed;
   height: 750px;
 }
 
