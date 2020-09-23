@@ -196,7 +196,7 @@ li a:hover:after {
   flex-wrap: wrap;
   flex-direction: column;
   justify-content: center;
-  max-width: 1300px;
+  max-width: 100vw;
 }
 
   ul {
@@ -218,7 +218,6 @@ li a:hover:after {
       flex-wrap: wrap;
       flex-direction: column;
       justify-content: center;
-      max-width: 350px;
     }
   
       h2 {
@@ -241,7 +240,8 @@ li a:hover:after {
     list-style: none;
     font-family: 'Roboto Mono', monospace;
     font-size: 20px;
-    margin-left: 0px;
+    margin-left: 10px;
+    margin-top: 20px;
     } 
   
   li a {
@@ -276,7 +276,8 @@ li a:hover:after {
   
   #caratula {
     background-size: 33%;
-    text-align: center;
+    height: 500px;
+	background-attachment: scroll;
   }
   
   .main-title {
@@ -287,15 +288,20 @@ li a:hover:after {
     padding-left: 20px;
     text-align: justify;
   }
+
+  #projects {
+    height: 2000px;
+    width: 100vw;
+  }
   
   #projects h2 {
   font-size: 75px;
-  text-align: left;
+  text-align: center;
 }
   
 .preview {
   position: relative;
-  width: 175px;
+  width: 250px;
   background-size: 35%;
 }
   
@@ -307,6 +313,7 @@ li a:hover:after {
 
   #contacto {
     background-size: 100%;
+    height: 500px;
 }
   
 }
