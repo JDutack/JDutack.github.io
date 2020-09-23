@@ -89,6 +89,7 @@ li a:hover:after {
 
 #projects h2 {
   padding-top: 50px;
+  padding-bottom: 50px;
   color: white;
   font-family: 'Bebas Neue', cursive;
   font-size: 100px;
@@ -98,8 +99,6 @@ li a:hover:after {
 #projects {
   background-color: #3498db;
   height: 1000px;
-  margin-bottom: 0px;
-  padding-bottom: 0px;
 }
 
 .proy-container {
@@ -149,8 +148,6 @@ li a:hover:after {
 }
 
 #contacto {
-  margin-top: 0px;
-  padding-top: 0px;
   height: 700px;
   background-image: url("https://i.imgur.com/cMStyqL.png");
   background-size: 50%;
@@ -202,6 +199,15 @@ li a:hover:after {
   ul {
   margin-left: 100px;
 }   
+
+#caratula {
+  background-size: 25%;
+  background-position: top;
+}
+
+#projects {
+  height: 1250px;
+}
 
   .preview {
   width: 500px;
