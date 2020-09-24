@@ -203,6 +203,8 @@ li a:hover:after {
 #caratula {
   background-size: 25%;
   background-position: top;
+  height: 1250px;
+  background-position: bottom;
 }
 
 #projects {
