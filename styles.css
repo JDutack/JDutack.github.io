@@ -284,6 +284,7 @@ li a:hover:after {
   #caratula {
     background-size: 50%;
     height: 500px;
+    background-attachment: scroll;
   }
   
   .main-title {
