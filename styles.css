@@ -208,11 +208,14 @@ li a:hover:after {
 #projects {
   height: 1250px;
 }
+	
+.preview {
+ width: 500px;
+}   
 
-  .preview {
-  width: 500px;
-  }   
-
+#contacto {
+height: 1000px;
+}
   
 }
 
