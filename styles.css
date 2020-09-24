@@ -186,7 +186,7 @@ li a:hover:after {
   padding: 25px 10px 25px 10px;
 }
 
-@media screen and (min-width: 1900px) { /* queries para ports enormes */
+@media only screen and (min-width: 1900px) { /* queries para ports enormes */
   
   html {
   display: flex;
@@ -203,24 +203,20 @@ li a:hover:after {
 #caratula {
   background-size: 25%;
   background-position: top;
-  height: 1250px;
 }
 
 #projects {
   height: 1250px;
 }
-	
-.preview {
- width: 500px;
-}   
 
-#contacto {
-height: 1000px;
-}
+  .preview {
+  width: 500px;
+  }   
+
   
 }
 
-@media screen and (max-width: 450px) { /* queries para ports mobile */
+@media only screen and (max-width: 450px) { /* queries para ports mobile */
    
   
     html {
