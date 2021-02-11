@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+
+body {
+  background-color: #2d98da;
+  color: white;
+  font-family: 'Cabin', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  text-align: center;
+} 
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.timer-container {
+  margin: 20px;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  padding: 5px 7px 5px 7px;
+  margin: 15px;
+  transition-duration: 0.3s;
+  cursor: pointer;
+}
+
+.clock-container button {
+  font-size: 25px;
+  border-radius: 50%;
+}
+
+.clock-container button:hover {
+  background-color: white;
+  color: #2d98da;
+}
+
+.actions-wrapper button {
+  font-size: 15px;
+}
+
+.actions-wrapper button:hover {
+  background-color: white;
+  color: #2d98da;
+}
+
+.actions-wrapper span {
+  font-size: 25px;
+  width: 30px;
+}
+
+.clock-container {
+  border-top: 2px solid white;  
+  padding: 10px;
+}
+
+.clock-container span {
+  font-size: 50px;
+}
+
+.credits {
+  opacity: 25%;
+  padding: 25px;
+  font-size: 20px;
+  color: white;
+  right: 0px;
+  bottom: 10px;
+  position: fixed;
+  background-image: url("https://i.imgur.com/bL1ktq0.png");
+  background-position: center;
+  background-size: 50%;
+  background-repeat: no-repeat;
+  text-decoration: none;
+  transition-duration: 0.1s;
+}
+
+.credits:hover {
+  opacity: 100%;
+  background-color: white;
+  color: black;
+  background-size: 85%;
+}
+/*
+.bottom-banner {
+  width: 100%;
+  background-color: white;
+  height: 100px;
+  bottom: 0px;
+  right: 0px;
+  position: fixed;
+  margin: 0px;
+  padding: 0px;
+}
