@@ -1,0 +1,254 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+
+ul {
+  padding-right: 25px;
+  list-style-type: none;
+  width: 650px;
+  display: flex;
+  justify-content: space-around;
+}
+
+li {
+  font-size: 25px;
+  font-family: 'Sen', sans-serif;
+  }
+
+li a {
+  text-decoration: none;
+  color: red;
+  transition: color 0.2s;
+}
+
+a {
+  padding-top: 37px;
+  padding-bottom: 35px;
+}
+
+ .nav-link:hover {
+  color: white;
+  background-image: url("https://imgur.com/r61sZCb.png");
+  background-position: center;
+  background-size: 100px;
+   background-repeat: no-repeat;
+}
+
+nav-bar{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+@media (min-width: 400px){
+  nav-bar {
+    max-width: 100%;
+  }
+} 
+
+#titulo {
+  margin-top: 80px;
+  padding: 35px;
+  height: 750px;
+}
+
+#separan2, #separan3 {
+padding: 225px;
+  margin:100px 0px 100px 0px;
+}
+
+#separador-img {
+  margin-top: 50px;
+  width: 80%;
+}
+
+body{
+  margin: 0px;
+  padding: 0px;
+}
+
+header {
+  position: fixed;
+  background-color: black;
+  width: 100%; 
+  min-width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  top: 0px;
+}
+
+.header-img {
+  min-height: 150px;
+  min-width: 110px;
+}
+
+.titulo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 500px;
+  justify-content: center;
+  margin-top: 150px;
+  background-color: red;
+  font-size: 18px;
+  font-family: 'Sen', sans-serif;
+}
+
+.separan2 {
+  display: flex;
+  justify-content: center;
+  background-color: red;
+}
+
+#caracteristicas {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+}
+
+#tradicion {
+  padding: 30px;
+  background-image: url("https://imgur.com/g7MvPdn.png");
+    background-size: 150px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#artesania {
+  padding: 30px;
+  background-image: url("https://imgur.com/yfv8lBK.png");
+    background-size: 150px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#balance {
+    padding: 30px;
+  background-image: url("https://imgur.com/RjvZsNm.png");
+    background-size: 150px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+h2{
+  color: red;
+  font-family: 'Gotu', sans-serif;
+  font-size: 50px;
+  text-align: center;
+}
+
+#video {
+  margin: 25px;
+  padding: 25px;
+}
+
+p{
+  font-size: 20px;
+  font-family: 'Gotu', sans-serif;
+}
+
+#trabajo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#empresa {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#empresa > h2 {
+  display: flex;
+  justify-content: center;
+}
+
+#empresa > p {
+ color: red;
+  text-align: center;
+  font-size: 14.5px;
+  font-family: 'gotu', sans-serif;
+  margin-left: 100px;
+}
+
+#encuesta {
+  padding: 20px;
+  margin: 0 200px;
+  display: flex;
+  background-color: #f1f1f1;
+  border: 20px  red;
+  height: 200px;
+  border-left-style: solid;
+  margin-bottom:  50px;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 20px;
+  color: red;
+  font-family: 'Sen', sans-serif;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  background-color: red;
+  color: white;
+  background-color: #red;
+  width: 100%;
+  height: 130px;
+  text-align: center;
+}
+
+footer > ul > li {
+font-size: 20px;
+margin-bottom: -35px;
+}
+
+footer > p {
+font-size: 15px;
+  font-family: 'gotu', sans-serif;
+}
+
+#bolito {
+  height: 100px;
+  width: 100px;
+
+}
+.credits {
+  font-size: 20px;
+  height: 50px;
+  font-family: 'Cabin', -sans-serif;
+}
+
+.chivo {
+  opacity: 0.5;
+  color: grey;
+  position: fixed;
+  bottom: 25px;
+  right: 0px;
+  padding: 25px;
+  bottom: 20px;
+  text-decoration: none;
+  background-image: url("https://i.imgur.com/bL1ktq0.png");
+  background-position: center;
+  background-size: 50%;
+  background-repeat: no-repeat;
+  transition-duration: 0.1s;
+}
+
+.chivo:hover {
+  background-color: grey;
+  opacity: 100%;
+  color: red;
+  background-size: 85%;
+  text-decoration: none;
+}
