@@ -1,0 +1,93 @@
+* { margin: 0; padding: 0; }
+
+html,body {
+    overflow-x: hidden; 
+}
+
+header {
+    top: 0px;
+    padding: 25px 0px 25px 0px;
+    margin-top: 0px;
+}
+
+#titulo {
+    font-family: 'Big Shoulders Inline Display', cursive;
+    background-repeat: no-repeat;
+    background-position: left;
+    font-size: 125px;
+    text-align: center;
+    color: #FBA3D0;
+}
+
+body {
+    background: rgb(251,163,208);
+    background: linear-gradient(171deg, rgba(251,163,208,1) 0%, rgba(118,130,255,1) 74%, rgba(34,193,195,1) 100%, rgba(255,255,255,1) 100%); 
+}
+
+#core {
+    background-image: url("https://i.imgur.com/YISJuMI.png");
+    background-position: center;
+    background-size: 18%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-link {
+    margin: 35px;
+    padding: 35px;
+    text-decoration: none;
+    transition-duration: 1s;
+    color: #FBA3D0;
+    background-image: url("https://i.imgur.com/7n8wUvY.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 0%;
+}
+
+.project-link:hover {
+    background-size: 71%;
+    color: white;
+}
+
+.project-preview {
+    width: 400px;
+    height: 200px;
+}
+
+
+.project-title {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+    text-align: center;
+    font-weight: Bold;
+}
+
+
+footer {
+
+    margin: 0px;
+}
+
+#bottom {
+    font-size: 25px;
+    text-align: right;
+}
+
+#return {
+    padding: 30px 30px 0px 0px;
+    text-decoration: none;
+    font-family: 'Big Shoulders Inline Display', cursive;
+    font-size: 45px;
+    color: white;
+    transition-duration: 1s;
+}
+
+#return:hover {
+    color: #FBA3D0;
+}
